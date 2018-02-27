@@ -3,7 +3,7 @@ folder <- "~/Downloads/pres_splitlines"
 library(quanteda)
 library(readtext)
 
-## Read in the first time
+## Read in the first time (uncomment next line to use)
 # corpus <- corpus(readtext(file.path(folder, "*aggregate.txt")))
 #
 # Corpus consisting of 4 documents:
@@ -14,5 +14,5 @@ library(readtext)
 # text3  91854  8897343    397088    pre1989-democrat-aggregate.txt
 # text4  97693 11478047    537446  pre1989-republican-aggregate.txt
 
-# recover previously loaded corpus
+# recover previously loaded corpus (only local)
 save(corpus, file = "~/Downloads/pres_splitlines/corpus.rda")
